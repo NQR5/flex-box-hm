@@ -53,3 +53,11 @@ nav a:hover{
     height: 5vh;
     background-color: rgb(255, 255, 255);
 }
+.hero{
+    
+    padding: 20px;
+}
+.hero h1{
+    padding: 20px;
+    font-size: 3rem;
+}
