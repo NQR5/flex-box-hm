@@ -54,6 +54,8 @@ nav a:hover{
     height: 5vh;
     background-color: rgb(255, 255, 255);
     cursor: pointer;
+    border: none;
+    color: rgb(0, 0, 0); 
 }
 .purchase-btn:hover{
     background-color: #989898;
@@ -87,6 +89,15 @@ nav a:hover{
 .card p{
     font-size: 1.5rem;
 }
+.card h4{
+    margin: 20px 0px ;
+}
 .card{
     padding: 20px;
+}
+.footer{
+    padding: 20px;
+    background-color: #ffffff;
+    width: 100vw;
+    color: #000000;
 }
