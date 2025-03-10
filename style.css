@@ -47,17 +47,46 @@ nav a:hover{
     display: flex;
     align-items: center;
     padding: 20px;
+  
 }
 .purchase-btn{
     width: 100px;
     height: 5vh;
     background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.purchase-btn:hover{
+    background-color: #989898;
 }
 .hero{
-    
+  
     padding: 20px;
 }
 .hero h1{
     padding: 20px;
     font-size: 3rem;
+}
+.card-holder{
+  
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+  
+}
+.card img{
+    height: 220px;
+    width: 300px;
+}
+.card p{
+    font-size: 1.5rem;
+}
+.card{
+    padding: 20px;
 }
